@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 N = 5000
 dt = 0.006
-R = 4*pi**2
+R = 4*pi**3  # 4*pi**2 à l'origine mais c'est marrant de jouer avec ça
 A = 0.1
 x = [1]
 y = [0]

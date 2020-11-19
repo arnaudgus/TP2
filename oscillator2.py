@@ -36,6 +36,7 @@ for i in range(N-1):
 
 # plot
 plt.figure()
-plt.plot(t,x, color='r', linestyle="--")
+plt.plot(t,x, color='orange', linestyle="-")
+plt.plot(t,y, color='b', linestyle="-")
 plt.plot( xlabel = 't', ylabel = "x")
 plt.show()
